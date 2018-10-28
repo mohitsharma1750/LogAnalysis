@@ -42,7 +42,7 @@ View Creation Command.
 # How to run the application
 
 Using command prompt
-1. Navigate to the project Folderof Log Analysis Project.
+1. Navigate to the project Folder of Log Analysis Project.
 2. Check the content of the Folder (Run 'ls' in case of linux and 'dir' in case of windows).
 3. Make sure you have file LogsAnalysisService.py in the directory.
 3. Check your python environment and run python/python3(In case of python 3).
