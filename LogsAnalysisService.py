@@ -54,28 +54,25 @@ def print_title(title):
 
 # Function to GET the Popular three articles of all time
 def popular_articles():
-    top_three_articles = query_database(query_articles)
     print_title("Most Popular articles of all time, Top 3 are ")
 
-    for most_popular_articles, view_count in top_three_articles:
+    for most_popular_articles, view_count in query_database(query_articles):
         print(" \"{}\" Article has {} View Count".format(most_popular_articles, view_count))
 
 
 #  Function to GET the top authors of all time
 def popular_authors():
-    top_authors = query_database(query_authors)
     print_title("Most Popular authors of all time")
 
-    for most_popular_authors, view_count in top_authors:
+    for most_popular_authors, view_count in query_database(query_authors):
         print(" Author \"{}\" has {} Popularity Votes".format(most_popular_authors, view_count))
 
 
 # Function to see days with Failed Request more than one Percent.
 def bad_request_days():
-    error_request= query_database(query_errors)
     print_title("Days with more than one percentage of bad requests")
 #Loop in result and print the result
-    for day, percentagefailed in error_request:
+    for day, percentagefailed in query_database(query_errors):
         print("""{0:%B %d, %Y} -- {1:.2f} % Bad Requests""".format(day, percentagefailed))
 
 # Main Function where execution starts.
