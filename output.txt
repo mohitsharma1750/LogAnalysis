@@ -13,4 +13,4 @@
 
 			############################## Days with more than one percentage of bad requests##############################
 
-July 17, 2016 -- 2.26 % Bad Requests
+ On  17 - July - 2016 there are  2.26 % Bad Requests
