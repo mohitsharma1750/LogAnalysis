@@ -1,15 +1,15 @@
 			############################## Most Popular articles of all time, Top 3 are ##############################
 
- "Candidate is jerk, alleges rival" -- 338647 views
- "Bears love berries, alleges bear" -- 253801 views
- "Bad things gone, say good people" -- 170098 views
+ "Candidate is jerk, alleges rival" Article has 338647 View Count
+ "Bears love berries, alleges bear" Article has 253801 View Count
+ "Bad things gone, say good people" Article has 170098 View Count
 
 			############################## Most Popular authors of all time##############################
 
- Ursula La Multa -- 507594 views
- Rudolf von Treppenwitz -- 423457 views
- Anonymous Contributor -- 170098 views
- Markoff Chaney -- 84557 views
+ Author "Ursula La Multa" has 507594 Popularity Votes
+ Author "Rudolf von Treppenwitz" has 423457 Popularity Votes
+ Author "Anonymous Contributor" has 170098 Popularity Votes
+ Author "Markoff Chaney" has 84557 Popularity Votes
 
 			############################## Days with more than one percentage of bad requests##############################
 

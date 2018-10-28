@@ -58,7 +58,7 @@ def popular_articles():
     print_title("Most Popular articles of all time, Top 3 are ")
 
     for most_popular_articles, view_count in top_three_articles:
-        print(" \"{}\" -- {} views".format(most_popular_articles, view_count))
+        print(" \"{}\" Article has {} View Count".format(most_popular_articles, view_count))
 
 
 #  Function to GET the top authors of all time
@@ -67,7 +67,7 @@ def popular_authors():
     print_title("Most Popular authors of all time")
 
     for most_popular_authors, view_count in top_authors:
-        print(" {} -- {} views".format(most_popular_authors, view_count))
+        print(" Author \"{}\" has {} Popularity Votes".format(most_popular_authors, view_count))
 
 
 # Function to see days with Failed Request more than one Percent.
