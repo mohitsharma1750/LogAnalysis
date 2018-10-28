@@ -37,7 +37,7 @@ query_errors = """select date, error_percent
             """
 
 
-# Util Function to open and close the connection of DB.
+# Util Function to open and close the connection of DB.Take Sql_Request as param and execute it.
 def query_database(sql_request):
     conn = psy.connect(database=DBNAME)
     cursor = conn.cursor()
@@ -49,7 +49,7 @@ def query_database(sql_request):
 
 # A Util Function to Format the Title
 def print_title(title):
-    print ("\n\t\t\t" + title + "\n")
+    print ("\n\t\t\t" + "#"*30 + " "+title + "#"*30+ "\n")
 
 
 # Function to GET the Popular three articles of all time
@@ -78,7 +78,7 @@ def bad_request_days():
     for day, percentagefailed in error_request:
         print("""{0:%B %d, %Y} -- {1:.2f} % Bad Requests""".format(day, percentagefailed))
 
-
+# Main Function where execution starts.
 if __name__ == '__main__':
     popular_articles()
     popular_authors()
