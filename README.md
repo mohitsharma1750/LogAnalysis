@@ -39,6 +39,11 @@ View Creation Command.
   then 0 else 1 end)/count(log.status),2) as "error_percent" from log group by date(time) 
   order by "error_percent" desc;
 
+  Alternatively, you can go to the directory where views.sql is located and run following
+  command. It should be done  after importing the database from newsdata.sql.
+
+  psql -d news -f views.sql
+
 
 # How to run the application
 
